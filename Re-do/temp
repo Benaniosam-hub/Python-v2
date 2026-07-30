@@ -1,1 +1,6 @@
+Difference Between Append() and Extend()
+
+Append() adds its argument as single element to the end of a list
+but, Extend() iterates over its argument and adds each items 
+individually.
 

@@ -14,5 +14,10 @@ class SecretAgent:
         return f"shhh {self.__password}"
 
 Agent01 = SecretAgent('Bena','B370','007')
-passw = Agent01.__password
-print(passw)
+passw = Agent01.name
+passw
+
+
+sentence = "Python is fun to learn"
+
+

@@ -20,3 +20,11 @@ supplies.insert (-1, "toilet paper")
 delete = supplies.pop(3)
 print (supplies)
 print("the item "+ delete +" is deleted")
+camp_site.extend(["sam","eam"])
+print(camp_site)
+
+list5 = [1,2,3,4,5,6,7,8,9,10]
+
+new_value = list5.index(6,4,6)
+
+print(new_value)

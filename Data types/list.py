@@ -11,12 +11,12 @@ sort() only works on lists where
 sorted() works on any iterable object like lists, tuples, dictionaries, etc.
 """
 
-camp_stuff = ["tent", "sleeping bags", "water", "raspberry pi", "coffee", "knife", "ethernet cable", "flash drive", "beard oil", "marshmallows"]
+supplies = ["tent", "sleeping bags", "water", "raspberry pi", "coffee", "knife", "ethernet cable", "flash drive", "beard oil", "marshmallows"]
   
-camp_site = ["Crystal Lake", 404, 89.3, True]
-
-me = camp_stuff[4]
-
-you = camp_stuff[-1]
-
-print (me,you)
+camp_site = ["Crystal Lake", 404, 95.5, 10, False]
+supplies.remove("tent")
+supplies.remove("sleeping bags")
+supplies.insert (-1, "toilet paper")
+delete = supplies.pop(3)
+print (supplies)
+print("the item "+ delete +" is deleted")

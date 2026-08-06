@@ -1,12 +1,22 @@
-list1 = [1, 2, 3, 4, 5]
-list2 = [6, 7, 8, 9, 10]
-y = []
-for i in list1:
-    y.append(i*2)
-z = []
-for x in list2:
-    z.append(x*3)
+"""
+Core Characteristics of Python Lists:
 
-c = y + z
+- Ordered sequence of elements
+- Mutable (can be modified after creation)
+- Indexed (values can be accessed using index)
+- Duplicates allowed
+- Used as list comprehensions and for loops
 
-print(c)
+sort() only works on lists where
+sorted() works on any iterable object like lists, tuples, dictionaries, etc.
+"""
+
+camp_stuff = ["tent", "sleeping bags", "water", "raspberry pi", "coffee", "knife", "ethernet cable", "flash drive", "beard oil", "marshmallows"]
+  
+camp_site = ["Crystal Lake", 404, 89.3, True]
+
+me = camp_stuff[4]
+
+you = camp_stuff[-1]
+
+print (me,you)

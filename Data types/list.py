@@ -34,3 +34,4 @@ product.sort(key=itemgetter("price"))
 print(product)
 
 print(new_value)
+

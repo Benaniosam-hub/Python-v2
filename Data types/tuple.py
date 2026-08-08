@@ -24,3 +24,14 @@ tup1=("sam","ram","dam")
 print(employee1)
 print(employee2)
 print(employee3)
+
+users = {0: "Mario", 1: "luigi", 2: "James"}
+print(users.keys())
+users.popitem()
+print(users)
+
+user = {0: "Mary", 1: "luka", 2: "Jefer"}
+copy_user = user.copy()
+
+print(id(user))
+print(id(copy_user))

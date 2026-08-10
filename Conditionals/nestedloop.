@@ -1,9 +1,0 @@
-#AND OPERATORS
-# Output is True only if both inputs are True.
-
-#OR OPERATORS
-# Output is True if at least one input is True.
-
-#NOT OPERATORS
-# Inverts the input value
-

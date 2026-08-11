@@ -47,7 +47,7 @@ else:
     print("Nah your wrong")
 
 """
-
+'''
 raining = True
 print("Let's go to the", 'beach' if not raining else 'library')
 
@@ -64,6 +64,60 @@ if a > b:
 else:
     m = b
 print(m)
+
 # This can be written by one line:
 
 m = a if a > b else b
+
+points = [(1, 4), (3, 6), (7, 3)]
+
+for x, y in points:
+    print(f"{x = } and {y = }")
+
+for i in range (5):
+    print(i)
+
+
+students = {
+    "Alice": 89.5,
+    "Bob": 76.0,
+    "Charlie": 92.3,
+    "Diana": 84.7,
+    "Ethan": 88.9,
+    }
+
+for student in students:
+    print(student, "->", students[student])
+
+teams = {
+    "Colorado": "Rockies",
+    "Chicago": "White Sox",
+    "Boston": "Red Sox",
+    "Minnesota": "Twins",
+    "Milwaukee": "Brewers",
+    "Seattle": "Mariners",
+    }
+
+
+for b in teams:
+    print(b, "->",teams[b])
+
+
+for team in teams.items():
+    print(team)
+
+for team in teams.keys():
+    print(team)
+
+for team in teams.values():
+    print(team)
+
+'''
+a = [1,2,3,4,5,6,7,8]
+target = 5
+
+for i in a:
+    print(f"Processing..{i}")
+    if i == target:
+        print(f"Target found..{target}")
+        break

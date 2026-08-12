@@ -17,7 +17,7 @@ for i in phone_number:
         continue
     print(i, end=" ")
 '''
-
+'''
 import random
 import time
 
@@ -32,3 +32,20 @@ while True:
         print("Required temperature reached! Stopping monitoring.")
         break
     time.sleep(1)
+'''
+'''
+colors = ["red","blue","green","yellow","violet"]
+
+while colors:
+    color = colors.pop(-1)
+    print(f"Processing color: {color}") 
+    continue
+print("Colors are empty")
+'''
+
+line = input("Type some text: ")
+
+while line != "stop":
+    print(line)
+    line = input("Type some text: ")
+

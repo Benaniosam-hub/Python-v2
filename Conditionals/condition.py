@@ -113,6 +113,8 @@ for team in teams.values():
     print(team)
 
 '''
+'''
+#THE BREAK STATEMENT:
 a = [1,2,3,4,5,6,7,8]
 target = 5
 
@@ -121,3 +123,36 @@ for i in a:
     if i == target:
         print(f"Target found..{target}")
         break
+
+#THE CONTINUE STATEMENT:
+numbers = [1,2,3,4,5,6]
+
+for number in numbers:
+    print(f"{number = }")
+    if number % 2 != 0:
+        continue
+    print(f"{number} is even!")
+
+
+number = [1,2,3,4,5]
+target = 43
+
+for number in numbers:
+    print(f"Processing {number}...")
+    if number == target:
+        print(f"Target found{target}")
+        break
+else:
+    print(f"Target not found{target}")
+'''
+'''
+#Nested for loops:
+n = 5
+for i in range(1, n+1):
+    print(" " * (n-i) + "1 " * i)
+'''
+for i in range(1,11):
+    for tables in range(i, i * 11, i):
+        print(f"{tables:>4d}",end="")
+    print()
+    
